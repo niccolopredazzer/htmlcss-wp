@@ -75,25 +75,50 @@ span:hover {
 }
 aside {
     width: 25%;
-    height: 60%;
-    background-color: white;
+    height: 50%;
     border-radius: 5px;
+    background-color: white;
     float: left;
 }
 main {
     width: 50%;
-    height: 50%;
+    height: 100%;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
 main .content {
-    height: 100%;
-    background-color: white;
+    height: 40%;
     border-radius: 5px;
+    background-color: white;
 }
 footer {
     height: 100px;
     width: 100%;
     background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.sinistra p {
+    color: green;
+    margin: 10px;
+}
+h4 {
+    text-align: center;
+}
+i {
+    position: relative;
+    bottom: 15px;
+    left: 3px;
+    color: orange;
+}
+h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+main p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
