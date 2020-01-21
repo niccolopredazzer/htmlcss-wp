@@ -73,7 +73,7 @@ span:hover {
 .row {
     height: 600px;
 }
-aside {
+.sinistra {
     width: 25%;
     height: 50%;
     border-radius: 5px;
@@ -92,21 +92,15 @@ main .content {
     border-radius: 5px;
     background-color: white;
 }
-footer {
-    height: 100px;
-    width: 100%;
-    background-color: white;
-    border-radius: 5px;
-    margin-top: 10px;
-}
 .sinistra p {
     color: green;
     margin: 10px;
 }
-h4 {
+.content h4 {
     text-align: center;
 }
-i {
+.sinistra i {
+    font-size: 30px;
     position: relative;
     bottom: 15px;
     left: 3px;
@@ -121,4 +115,52 @@ main p {
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.destra {
+    width: 25%;
+    height: 70%;
+    border-radius: 5px;
+    float: left;
+}
+.widget {
+    padding: 20px;
+}
+.uno {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.due, .tre {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+footer i {
+    font-size: 30px;
+    color: lightgrey;
+    position: absolute;
+    top: 40px;
+}
+.fa-facebook {
+    position: absolute;
+    left: 30px;
+}
+.fa-instagram {
+    position: absolute;
+    left: 650px;
+}
+.fa-github {
+    position: absolute;
+    right: 30px;
 }
