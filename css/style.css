@@ -70,3 +70,30 @@ span {
 span:hover {
     cursor: pointer;
 }
+.row {
+    height: 600px;
+}
+aside {
+    width: 25%;
+    height: 60%;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+}
+main {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main .content {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
